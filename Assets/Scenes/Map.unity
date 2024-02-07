@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.008866781, g: 0.012923525, b: 0.02021995, a: 1}
+  m_IndirectSpecularColor: {r: 0.032246664, g: 0.046999585, b: 0.07353421, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1745,7 +1745,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.9098039, b: 0.74509805, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.45
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1788,7 +1788,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 5500
+  m_ColorTemperature: 12658
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -1804,7 +1804,7 @@ Transform:
   m_GameObject: {fileID: 315136619}
   serializedVersion: 2
   m_LocalRotation: {x: 0.21285662, y: -0.77703136, z: 0.4837535, w: 0.34190196}
-  m_LocalPosition: {x: 0, y: 43.8, z: 0}
+  m_LocalPosition: {x: 0, y: 14.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3989,15 +3989,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9132580480714030464, guid: 3b641b1d8103b804da46c1609332678f, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
-      value: 0.33305445
+      value: 0.5566038
       objectReference: {fileID: 0}
     - target: {fileID: 9132580480714030464, guid: 3b641b1d8103b804da46c1609332678f, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
-      value: 0.49016824
+      value: 0.4275042
       objectReference: {fileID: 0}
     - target: {fileID: 9132580480714030464, guid: 3b641b1d8103b804da46c1609332678f, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
-      value: 0.5943396
+      value: 0.31243324
       objectReference: {fileID: 0}
     - target: {fileID: 9132580480714030464, guid: 3b641b1d8103b804da46c1609332678f, type: 3}
       propertyPath: InitialModule.startColor.minColor.b
@@ -4681,7 +4681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 434953381552367594, guid: 5831e8f0b5db55e40803bd66824e0b49, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3199110666079162160, guid: 5831e8f0b5db55e40803bd66824e0b49, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11399,10 +11399,10 @@ SceneRoots:
   - {fileID: 315136621}
   - {fileID: 1855857360}
   - {fileID: 590107732}
+  - {fileID: 1153807374}
   - {fileID: 2079483091}
   - {fileID: 1896188974}
   - {fileID: 993516925}
-  - {fileID: 1153807374}
   - {fileID: 664554704}
   - {fileID: 911954177}
   - {fileID: 1166801579}
