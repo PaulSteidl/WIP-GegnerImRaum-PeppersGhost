@@ -9,7 +9,6 @@ public class LifeManagment : MonoBehaviour
     [SerializeField] private bool alive = true;
     [Header("FPS Objedts")]
     [SerializeField] private GameObject fpsCamera;
-    [SerializeField] private UnityStandardAssets.Characters.FirstPerson.FirstPersonController fpsScript;
     [Header("Damage Objekt")]
     [SerializeField] private GameObject dethCamCenter;
     [SerializeField] private Animator bloodAnimator;
